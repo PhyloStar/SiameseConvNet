@@ -13,9 +13,8 @@ Taraka Rama. Siamese Convolutional Networks for Cognate Identification. Proceedi
  - There are total four programs. 
  - The program starting with one_hot uses the 1-hot representation of a phoneme to represent a word as a matrix and then compute the similarity between the two words and then optimizes binary cross-entropy using a Adadelta optimizer
  - The program starting with siamese_cognates uses articulatory features for representing a phoneme and then performs convolutional operations for identifying cognates
- 
  - The program outputs the F-scores and accuracies for a dataset to the screen
- - The three datasets used in the experiments are provided in data folder
+ - The three datasets (Mayan, Austronesian, and Indo-European) which are used in the experiments are provided in data folder
   
 ##Contact:
 In case of any questions, contact taraka-rama.kasicheyanula@uni-tuebingen.de
